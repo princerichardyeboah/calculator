@@ -1,1 +1,40 @@
-https://www.syncfusion.com/javascript-ui-controls?utm_medium=ads&utm_source=google_ads&utm_campaign=google_ads_js_display_targetedsites&gclid=EAIaIQobChMIyoqKwvaajAMVQZ5QBh3HpwQzEAEYASAAEgJThvD_BwE&question=why-should-i-choose-syncfusion-javascript-components
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <button class="btn clear" data-action="clear">C</button>
+      <button class="btn backspace" data-action="backspace">←</button>
+      <button class="btn operator" data-action="/">÷</button>
+      <button class="btn operator" data-action="*">×</button>
+
+      <button class="btn digit" data-digit="7">7</button>
+      <button class="btn digit" data-digit="8">8</button>
+      <button class="btn digit" data-digit="9">9</button>
+      <button class="btn operator" data-action="-">−</button>
+
+      <button class="btn digit" data-digit="4">4</button>
+      <button class="btn digit" data-digit="5">5</button>
+      <button class="btn digit" data-digit="6">6</button>
+      <button class="btn operator" data-action="+">+</button>
+
+      <button class="btn digit" data-digit="1">1</button>
+      <button class="btn digit" data-digit="2">2</button>
+      <button class="btn digit" data-digit="3">3</button>
+      <button class="btn equals" data-action="=">=</button>
+
+      <button class="btn digit zero" data-digit="0">0</button>
+      <button class="btn decimal" data-decimal=".">.</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
